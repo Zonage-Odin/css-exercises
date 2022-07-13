@@ -1,21 +1,18 @@
+/*You can edit the CSS file by adding, removing, or editing selectors for a declaration block, or by moving declaration blocks around.*/
+
 .para,
 .small-para {
   color: hsl(0, 100%, 50%);
+  font-size: 22px;
 }
 
 .small-para {
   font-size: 14px;
 }
 
-.para {
+/*.para {
   font-size: 22px;
-}
-
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
+}*/
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -23,7 +20,13 @@
   font-size: 20px;
 }
 
-.child {
+.confirm {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+} 
+
+.text.child {
   color: red;
   font-size: 14px;
 }
