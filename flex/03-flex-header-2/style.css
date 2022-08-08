@@ -46,3 +46,29 @@ a {
 ul {
   list-style-type: none;
 }
+
+
+/* soln */
+.header,
+.flex-left,
+.flex-right,
+.links,
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.links {
+  gap: 15px;
+  padding: 0;
+  margin: 15px;
+}
+
+.flex-right {
+  gap: 15px;
+}
