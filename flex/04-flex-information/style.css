@@ -24,3 +24,23 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+/* soln */
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sub-content {
+  max-width: 200px;
+}

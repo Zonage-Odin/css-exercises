@@ -71,6 +71,7 @@ button.cancel {
   display: flex;
   gap: 16px;
   padding: 16px;
+  border: 1px solid green;
 }
 
 .icon {
@@ -85,8 +86,10 @@ button.cancel {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 8px;
+  border: 1px solid red;
 }
 
 .text {
   margin-bottom: 16px;
+  border: 1px solid blue;
 }
